@@ -96,24 +96,24 @@ export const Translations = [
     id: 'nl-NL',
     name: 'Dutch - Nederlands',
     translation: {
-      title: 'WiFi Kaart',
+      title: 'WiFi-Kaart',
       'desc.use':
-        'Print een eenvoudige kaart met uw WiFi inloggegevens. Plak het op je koelkast, stop het in je portemonnee, etc.',
+        'Print een eenvoudige kaart met uw WiFi-inloggegevens. Plak het op je koelkast, stop het in je portemonnee, etc.',
       'desc.privacy':
-        'Je WiFi informatie wordt nooit naar de server verzonden. Tracking, analytics of fingerprinting wordt niet gebruikt op deze website. Bekijk de',
+        'Je WiFi-informatie wordt nooit naar de server verzonden. Tracking, analytics of fingerprinting wordt niet gebruikt op deze website. Bekijk de',
       'desc.source': 'broncode',
-      'wifi.login': 'WiFi Login',
-      'wifi.name': 'Netwerk naam',
-      'wifi.name.placeholder': 'WiFi Netwerk naam',
+      'wifi.login': 'WiFi-login',
+      'wifi.name': 'Netwerknaam',
+      'wifi.name.placeholder': 'WiFi-netwerknaam',
       'wifi.password': 'Wachtwoord',
       'wifi.password.placeholder': 'Wachtwoord',
       'wifi.password.hide': 'Verberg wachtwoord',
-      'wifi.name.hiddenSSID': 'Verberg SSID',
+      'wifi.name.hiddenSSID': 'Verborgen SSID',
       'wifi.password.encryption': 'Encryptie',
       'wifi.password.encryption.none': 'Geen',
       'wifi.tip':
         'Wijs met de camera van je telefoon naar de QR code om automatisch verbinding te maken',
-      'wifi.alert.name': 'Netwerk naam kan niet leeg zijn',
+      'wifi.alert.name': 'Netwerknaam kan niet leeg zijn',
       'wifi.alert.password.length.5':
         'Wachtwoord moet ten minste 5 tekens bevatten, of verander de encryptie naar "Geen"',
       'wifi.alert.password.length.8':
@@ -954,6 +954,37 @@ export const Translations = [
       'button.rotate': 'หมุนแนวการ์ด',
       'button.print': 'พิมพ์',
       select: 'เลือกภาษา',
+    },
+  },
+  {
+    id: 'pb-IN',
+    name: 'Punjabi - ਪੰਜਾਬੀ',
+    translation: {
+      title: 'ਵਾਈਫਾਈ ਕਾਰਡ',
+      'desc.use':
+        'ਆਪਣੇ ਫਾਈ ਲੌਗਇਨ ਵੇਰਵਿਆਂ ਦੇ ਨਾਲ ਇੱਕ ਸਧਾਰਨ ਕਾਰਡ ਪ੍ਰਿੰਟ ਕਰੋ। ਇਸਨੂੰ ਫਰਿੱਜ ਵਿੱਚ ਟੇਪ ਕਰੋ, ਇਸਨੂੰ ਆਪਣੇ ਬਟੂਏ ਵਿੱਚ ਰੱਖੋ, ਆਦਿ',
+      'desc.privacy':
+        'ਤੁਹਾਡੀ ਫਾਈ ਜਾਣਕਾਰੀ ਕਦੇ ਵੀ ਸਰਵਰ ਨੂੰ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ ਹੈ। ਇਸ ਵੈੱਬਸਾਈਟ ਤੇ ਕੋਈ ਟਰੈਕਿੰਗ, ਵਿਸ਼ਲੇਸ਼ਣ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟਿੰਗ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ। ਵੇਖੋ',
+      'desc.source': 'ਸੂਤਰ ਸੰਕੇਤਾਵਲੀ',
+      'wifi.login': 'ਫਾਈ ਲਾਗਿਨ',
+      'wifi.name': 'ਨੈੱਟਵਰਕ ਦਾ ਨਾਮ',
+      'wifi.name.hiddenSSID': 'ਲੁਕਿਆ ਹੋਇਆ SSID',
+      'wifi.name.placeholder': 'ਫਾਈ ਨੈੱਟਵਰਕ ਦਾ ਨਾਮ',
+      'wifi.password': 'ਪਾਸਵਰਡ',
+      'wifi.password.placeholder': 'ਪਾਸਵਰਡ',
+      'wifi.password.hide': 'ਓਹਲੇ ਪਾਸਵਰਡ',
+      'wifi.password.encryption': 'ਐਨਕ੍ਰਿਪਸ਼ਨ',
+      'wifi.password.encryption.none': 'ਕੋਈ ਨਹੀਂ',
+      'wifi.tip':
+        'ਸਵੈਚਲਿਤ ਤੌਰ ਤੇ ਕਨੈਕਟ ਕਰਨ ਲਈ ਆਪਣੇ ਫ਼ੋਨ ਦੇ ਕੈਮਰੇ ਨੂੰ QR ਕੋਡ ਤੇ ਪੁਆਇੰਟ ਕਰੋ',
+      'wifi.alert.name': 'ਨੈੱਟਵਰਕ ਨਾਮ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ',
+      'wifi.alert.password.length.5':
+        'ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ ਪੰਜ ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਜਾਂ ਐਨਕ੍ਰਿਪਸ਼ਨ ਨੂੰ ਕੋਈ ਨਹੀਂ ਵਿੱਚ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ',
+      'wifi.alert.password.length.8':
+        'ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ ਅੱਠ ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਜਾਂ ਐਨਕ੍ਰਿਪਸ਼ਨ ਨੂੰ ਕੋਈ ਨਹੀਂ ਵਿੱਚ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ',
+      'button.rotate': 'ਘੁੰਮਾਓ',
+      'button.print': 'ਛਾਪੋ',
+      select: 'ਭਾਸ਼ਾ ਚੁਣੋ',
     },
   },
 ].sort((a, b) => {
